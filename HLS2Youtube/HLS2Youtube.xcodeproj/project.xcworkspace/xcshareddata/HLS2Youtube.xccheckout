@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>FFFDEF1B-AC5A-4D40-8E9F-86F47BD31FBE</string>
+	<key>IDESourceControlProjectName</key>
+	<string>HLS2Youtube</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>3339F8DEB435EE27395D6002E4CD6C4B8A7CF239</key>
+		<string>github.com:shabbirh/satellite2youtube.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>HLS2Youtube/HLS2Youtube.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>3339F8DEB435EE27395D6002E4CD6C4B8A7CF239</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:shabbirh/satellite2youtube.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>3339F8DEB435EE27395D6002E4CD6C4B8A7CF239</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>3339F8DEB435EE27395D6002E4CD6C4B8A7CF239</string>
+			<key>IDESourceControlWCCName</key>
+			<string>HLS2Youtube</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F2F3A9B41A79945600CCA4CC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F3A9B31A79945600CCA4CC /* AppDelegate.m */; };
+		F2F3A9B61A79945600CCA4CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F3A9B51A79945600CCA4CC /* main.m */; };
+		F2F3A9B81A79945600CCA4CC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2F3A9B71A79945600CCA4CC /* Images.xcassets */; };
+		F2F3A9BB1A79945600CCA4CC /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2F3A9B91A79945600CCA4CC /* MainMenu.xib */; };
+		F2F3A9C71A79945600CCA4CC /* HLS2YoutubeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F3A9C61A79945600CCA4CC /* HLS2YoutubeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F2F3A9C11A79945600CCA4CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2F3A9A51A79945600CCA4CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2F3A9AC1A79945600CCA4CC;
+			remoteInfo = HLS2Youtube;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F2F3A9AD1A79945600CCA4CC /* HLS2Youtube.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HLS2Youtube.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2F3A9B11A79945600CCA4CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2F3A9B21A79945600CCA4CC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F2F3A9B31A79945600CCA4CC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F2F3A9B51A79945600CCA4CC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F2F3A9B71A79945600CCA4CC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F2F3A9BA1A79945600CCA4CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		F2F3A9C01A79945600CCA4CC /* HLS2YoutubeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HLS2YoutubeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2F3A9C51A79945600CCA4CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2F3A9C61A79945600CCA4CC /* HLS2YoutubeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLS2YoutubeTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2F3A9AA1A79945600CCA4CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2F3A9BD1A79945600CCA4CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F2F3A9A41A79945600CCA4CC = {
+			isa = PBXGroup;
+			children = (
+				F2F3A9AF1A79945600CCA4CC /* HLS2Youtube */,
+				F2F3A9C31A79945600CCA4CC /* HLS2YoutubeTests */,
+				F2F3A9AE1A79945600CCA4CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F2F3A9AE1A79945600CCA4CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2F3A9AD1A79945600CCA4CC /* HLS2Youtube.app */,
+				F2F3A9C01A79945600CCA4CC /* HLS2YoutubeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2F3A9AF1A79945600CCA4CC /* HLS2Youtube */ = {
+			isa = PBXGroup;
+			children = (
+				F2F3A9B21A79945600CCA4CC /* AppDelegate.h */,
+				F2F3A9B31A79945600CCA4CC /* AppDelegate.m */,
+				F2F3A9B71A79945600CCA4CC /* Images.xcassets */,
+				F2F3A9B91A79945600CCA4CC /* MainMenu.xib */,
+				F2F3A9B01A79945600CCA4CC /* Supporting Files */,
+			);
+			path = HLS2Youtube;
+			sourceTree = "<group>";
+		};
+		F2F3A9B01A79945600CCA4CC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F2F3A9B11A79945600CCA4CC /* Info.plist */,
+				F2F3A9B51A79945600CCA4CC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F2F3A9C31A79945600CCA4CC /* HLS2YoutubeTests */ = {
+			isa = PBXGroup;
+			children = (
+				F2F3A9C61A79945600CCA4CC /* HLS2YoutubeTests.m */,
+				F2F3A9C41A79945600CCA4CC /* Supporting Files */,
+			);
+			path = HLS2YoutubeTests;
+			sourceTree = "<group>";
+		};
+		F2F3A9C41A79945600CCA4CC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F2F3A9C51A79945600CCA4CC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F2F3A9AC1A79945600CCA4CC /* HLS2Youtube */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2F3A9CA1A79945600CCA4CC /* Build configuration list for PBXNativeTarget "HLS2Youtube" */;
+			buildPhases = (
+				F2F3A9A91A79945600CCA4CC /* Sources */,
+				F2F3A9AA1A79945600CCA4CC /* Frameworks */,
+				F2F3A9AB1A79945600CCA4CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HLS2Youtube;
+			productName = HLS2Youtube;
+			productReference = F2F3A9AD1A79945600CCA4CC /* HLS2Youtube.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F2F3A9BF1A79945600CCA4CC /* HLS2YoutubeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2F3A9CD1A79945600CCA4CC /* Build configuration list for PBXNativeTarget "HLS2YoutubeTests" */;
+			buildPhases = (
+				F2F3A9BC1A79945600CCA4CC /* Sources */,
+				F2F3A9BD1A79945600CCA4CC /* Frameworks */,
+				F2F3A9BE1A79945600CCA4CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2F3A9C21A79945600CCA4CC /* PBXTargetDependency */,
+			);
+			name = HLS2YoutubeTests;
+			productName = HLS2YoutubeTests;
+			productReference = F2F3A9C01A79945600CCA4CC /* HLS2YoutubeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2F3A9A51A79945600CCA4CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Shabbir Hassanally";
+				TargetAttributes = {
+					F2F3A9AC1A79945600CCA4CC = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 3LV89C5678;
+					};
+					F2F3A9BF1A79945600CCA4CC = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = F2F3A9AC1A79945600CCA4CC;
+					};
+				};
+			};
+			buildConfigurationList = F2F3A9A81A79945600CCA4CC /* Build configuration list for PBXProject "HLS2Youtube" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F2F3A9A41A79945600CCA4CC;
+			productRefGroup = F2F3A9AE1A79945600CCA4CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2F3A9AC1A79945600CCA4CC /* HLS2Youtube */,
+				F2F3A9BF1A79945600CCA4CC /* HLS2YoutubeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F2F3A9AB1A79945600CCA4CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2F3A9B81A79945600CCA4CC /* Images.xcassets in Resources */,
+				F2F3A9BB1A79945600CCA4CC /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2F3A9BE1A79945600CCA4CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2F3A9A91A79945600CCA4CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2F3A9B61A79945600CCA4CC /* main.m in Sources */,
+				F2F3A9B41A79945600CCA4CC /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2F3A9BC1A79945600CCA4CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2F3A9C71A79945600CCA4CC /* HLS2YoutubeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F2F3A9C21A79945600CCA4CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2F3A9AC1A79945600CCA4CC /* HLS2Youtube */;
+			targetProxy = F2F3A9C11A79945600CCA4CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F2F3A9B91A79945600CCA4CC /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2F3A9BA1A79945600CCA4CC /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F2F3A9C81A79945600CCA4CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F2F3A9C91A79945600CCA4CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F2F3A9CB1A79945600CCA4CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HLS2Youtube/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		F2F3A9CC1A79945600CCA4CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HLS2Youtube/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		F2F3A9CE1A79945600CCA4CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HLS2YoutubeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HLS2Youtube.app/Contents/MacOS/HLS2Youtube";
+			};
+			name = Debug;
+		};
+		F2F3A9CF1A79945600CCA4CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HLS2YoutubeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HLS2Youtube.app/Contents/MacOS/HLS2Youtube";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2F3A9A81A79945600CCA4CC /* Build configuration list for PBXProject "HLS2Youtube" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2F3A9C81A79945600CCA4CC /* Debug */,
+				F2F3A9C91A79945600CCA4CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2F3A9CA1A79945600CCA4CC /* Build configuration list for PBXNativeTarget "HLS2Youtube" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2F3A9CB1A79945600CCA4CC /* Debug */,
+				F2F3A9CC1A79945600CCA4CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2F3A9CD1A79945600CCA4CC /* Build configuration list for PBXNativeTarget "HLS2YoutubeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2F3A9CE1A79945600CCA4CC /* Debug */,
+				F2F3A9CF1A79945600CCA4CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F2F3A9A51A79945600CCA4CC /* Project object */;
+}
